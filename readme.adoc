@@ -22,5 +22,5 @@ Test
 docker run -it -p 8080:8080 quay.io/burrsutter/tekton-git-jib-kn:v1
 
 curl localhost:8080
-
+trigger test
 
