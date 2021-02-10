@@ -25,3 +25,4 @@ curl localhost:8080
 trigger test
 
 1
+test1
