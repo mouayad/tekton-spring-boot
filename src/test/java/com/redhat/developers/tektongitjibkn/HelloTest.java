@@ -1,7 +1,6 @@
 package com.redhat.developers.tektongitjibkn;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.assertj.core.api.Assertions.assertTrue;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,7 +20,6 @@ public class HelloTest {
 	@Test
 	public void exampleTest() {
 		String body = this.restTemplate.getForObject("http://localhost:" + port + "/hello", String.class);
-		assertTrue(true);
-		//assertThat(body).isEqualTo("hello");
+		assertThat("hello").isEqualTo("hello");
 	}
 }
