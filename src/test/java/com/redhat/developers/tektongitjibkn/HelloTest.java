@@ -20,7 +20,7 @@ public class HelloTest {
 	@Test
 	public void exampleTest() {
 		String body = this.restTemplate.getForObject("http://localhost:" + port + "/hello", String.class);
-		assertTrue(True);
+		assertTrue(true);
 		//assertThat(body).isEqualTo("hello");
 	}
 }
