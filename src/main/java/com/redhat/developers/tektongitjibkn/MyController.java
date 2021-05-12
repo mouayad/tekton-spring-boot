@@ -26,6 +26,6 @@ public class MyController {
 
     @GetMapping("/hello")    
     public String hello() {
-        return "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!   hello all in this DEMO 1:)  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!";
+        return "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!   hello all in this DEMO Openshift :)  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!";
     }    
 }
